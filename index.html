@@ -1,0 +1,417 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprenda+ ENEM</title>
+
+    <link rel="icon" href="img/Simbolo.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="nav-header">
+        <div class="container nav-bar">
+
+            <a href="#home" class="nav-logo">
+                <img src="img/logo-dark.svg" alt="Aprenda+ ENEM" class="logo">
+            </a>
+
+            <nav class="nav-links">
+                <a href="#metodologia" class="nav-link">Metodologia</a>
+                <a href="#ranking" class="nav-link">Ranking</a>
+                <a href="#planos" class="nav-link">Planos</a>
+                <a href="#equipe" class="nav-link">Origem do projeto</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#" class="nav-login">Entrar</a>
+                <a href="#" class="btn btn-primary btn-sm">Cadastre-se Grátis</a>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main-content">
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-text">
+                    <span class="hero-badge"><img src="img/gamepad.svg" alt="" class="svg-ico"> SUA JORNADA ATÉ A APROVAÇÃO</span>
+
+                    <h1 class="hero-title">
+                        Prepare-se para o ENEM de forma
+                        <span class="word-stress">dinâmica</span>,
+                        <span class="word-stress">eficiente</span> e
+                        <span class="word-highlight">gamificada</span>.
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Conteúdo teórico e prático com sistema de vidas, recompensas e ranking.
+                        Aprenda se divertindo <strong>sem pagar nada</strong>.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#" class="btn btn-primary">Começar Agora →</a>
+                        <a href="#" class="btn btn-outline">Já tenho conta</a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <strong class="stat-num">FREE</strong>
+                            <span class="stat-label">para começar</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <strong class="stat-num">4</strong>
+                            <span class="stat-label">áreas do conhecimento</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <strong class="stat-num">100%</strong>
+                            <span class="stat-label">questões de ENEM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="frame-frame">
+                        <img src="img/img_telainicial01.svg" alt="Tela inicial da plataforma Aprenda+ ENEM" class="img__top-fold">
+
+                        <!-- HUD de jogador -->
+                        <div class="player-card">
+                            <img src="img/puppy-math.svg" alt="" class="player-avatar">
+                            <div class="player-info">
+                                <div class="player-row">
+                                    <b>VOCÊ</b>
+                                    <span class="player-rank">MODO JOGO</span>
+                                </div>
+                                <div class="player-chips">
+                                    <span class="player-chip"><img src="img/coin-badge.svg" alt="" class="svg-ico"> MOEDAS</span>
+                                    <span class="player-chip"><img src="img/heart-badge.svg" alt="" class="svg-ico"> VIDAS</span>
+                                    <span class="player-chip"><img src="img/trophy.svg" alt="" class="svg-ico"> RANKING</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="sticker sticker-01"><img src="img/trophy.svg" alt="" class="svg-ico"> RANKING<br>SEMANAL</span>
+                    <img src="img/undraw_gaming_re_cma2 1.svg" alt="" class="hero-decor">
+                    <span class="sticker sticker-02">Acertou? Ganha <img src="img/coin-badge.svg" alt="" class="svg-ico"></span>
+
+                    <div class="mini-sheet sheet" data-done="Marcada! Assim que se estuda por aqui. ✦">
+                        <div class="ms-tag"><span>QUESTÃO ZERO</span><span>DE ARRAQUE</span></div>
+                        <div class="as-row">
+                            <span class="as-q">00</span>
+                            <div class="as-group">
+                                <button type="button" class="as-bubble">A</button>
+                                <button type="button" class="as-bubble">B</button>
+                                <button type="button" class="as-bubble">C</button>
+                                <button type="button" class="as-bubble">D</button>
+                                <button type="button" class="as-bubble">E</button>
+                            </div>
+                        </div>
+                        <div class="as-stamp">BOA ★</div>
+                        <span class="tap-hint" aria-hidden="true"><img src="img/tap-finger.svg" alt="" class="svg-ico"> MARQUE UMA LETRA</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Marquee -->
+        <!--<div class="marquee-wrap" aria-hidden="true">
+            <div class="marquee">
+                <span>ENEM 2026</span><i>✦</i>
+                <span>GAMIFICAÇÃO</span><i>✦</i>
+                <span>FLEXIBILIDADE</span><i>✦</i>
+                <span>FOCO NA PRÁTICA</span><i>✦</i>
+                <span>Moedas &amp; RECOMPENSAS</span><i>✦</i>
+                <span>Ranking</span><i>✦</i>
+                <span>ENEM 2026</span><i>✦</i>
+                <span>GAMIFICAÇÃO</span><i>✦</i>
+                <span>FLEXIBILIDADE</span><i>✦</i>
+                <span>FOCO NA PRÁTICA</span><i>✦</i>
+                <span>Moedas &amp; RECOMPENSAS</span><i>✦</i>
+                <span>Ranking</span><i>✦</i>
+            </div>
+        </div> -->
+
+        <!-- Diferenciais -->
+        <section class="features" id="metodologia">
+            <div class="container">
+
+                <span class="section-tag">QUESTÃO 01 — METODOLOGIA</span>
+                <h2 class="section-title">
+                    POR QUE ESTUDAR COM<br>
+                    <span class="title-stamp">APRENDA+ ENEM</span> ?
+                </h2>
+
+                <div class="features-grid">
+
+                    <article class="feature-card" data-num="01">
+                        <div class="card-top">
+                            <div class="icon-container">
+                                <img src="img/mdi--play-speed.svg" alt="" class="icon__feat">
+                            </div>
+                            <img src="img/undraw_education_f8ru 1.svg" alt="" class="card-illustration">
+                        </div>
+                        <h3 class="card-title">NO SEU RITMO</h3>
+                        <p class="card-text">Escolha os assuntos de acordo com sua rotina com um método adaptável.</p>
+                        <button type="button" class="reward-chip mission-btn" id="mission01">▶ ACEITAR MISSÃO</button>
+                    </article>
+
+                    <article class="feature-card feature-card--purple" data-num="02">
+                        <div class="card-top">
+                            <div class="icon-container">
+                                <img src="img/mdi--chart-line 2.svg" alt="" class="icon__feat">
+                            </div>
+                            <img src="img/undraw_certificate_re_yadi 1.svg" alt="" class="card-illustration">
+                        </div>
+                        <h3 class="card-title">FOCO NA PRÁTICA</h3>
+                        <p class="card-text">Teoria rápida combinada com questões reais do ENEM para testar seu conhecimento.</p>
+                        <button type="button" class="reward-chip mission-btn" id="mission02">▶ ACEITAR MISSÃO</button>
+                    </article>
+
+                    <article class="feature-card feature-card--orange" data-num="03">
+                        <div class="card-top">
+                            <div class="icon-container">
+                                <img src="img/videogame.svg" alt="" class="icon__feat">
+                            </div>
+                            <img src="img/undraw_gaming_re_cma2 1.svg" alt="" class="card-illustration">
+                        </div>
+                        <h3 class="card-title">APRENDA JOGANDO</h3>
+                        <p class="card-text">Ganhe moedas, suba no ranking, desbloqueie itens e dispute com outros estudantes.</p>
+                        <button type="button" class="reward-chip mission-btn" id="mission03">▶ ACEITAR MISSÃO</button>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Ranking -->
+        <section class="ranking" id="ranking">
+            <div class="container">
+
+                <span class="section-tag">QUESTÃO 02 — RANKING</span>
+                <h2 class="section-title">RANKING <span class="word-highlight">SEMANAL</span></h2>
+                <p class="section-subtitle">
+                    Dispute com outros estudantes, suba no pódio e desbloqueie recompensas.
+                    Os três primeiros levam um emblema exclusivo no perfil.
+                </p>
+
+                <div class="podium-wrap">
+                    <div class="podium">
+                        <article class="pod pod-2">
+                            <span class="pod-medal"><img src="img/medal-silver.svg" alt="2º Lugar"></span>
+                            <img src="img/puppy-human.svg" alt="" class="pod-avatar">
+                            <h3 class="pod-name">HUMANINHO</h3>
+                            <span class="pod-xp">1.250 XP</span>
+                        </article>
+
+                        <article class="pod pod-1">
+                            <span class="pod-medal"><img src="img/medal-gold.svg" alt="1º Lugar"></span>
+                            <img src="img/puppy-math.svg" alt="" class="pod-avatar">
+                            <h3 class="pod-name">MATEMANIAC</h3>
+                            <span class="pod-xp">1.480 XP</span>
+                            <span class="pod-tag">CAMPEÃO DA SEMANA</span>
+                        </article>
+
+                        <article class="pod pod-3">
+                            <span class="pod-medal"><img src="img/medal-bronze.svg" alt="3º Lugar"></span>
+                            <img src="img/puppy-nature.svg" alt="" class="pod-avatar">
+                            <h3 class="pod-name">NATUREBA</h3>
+                            <span class="pod-xp">980 XP</span>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="ranking-cartela sheet" data-done="Fantasma gabaritado. Presente!" data-todo="2 questões de araque">
+                    <div class="ms-tag"><span>TREINO DE BOLSO</span><span>FREE</span></div>
+                    <div class="as-row">
+                        <span class="as-q">01</span>
+                        <div class="as-group">
+                            <button type="button" class="as-bubble">A</button>
+                            <button type="button" class="as-bubble">B</button>
+                            <button type="button" class="as-bubble">C</button>
+                            <button type="button" class="as-bubble">D</button>
+                            <button type="button" class="as-bubble">E</button>
+                        </div>
+                    </div>
+                    <div class="as-row">
+                        <span class="as-q">02</span>
+                        <div class="as-group">
+                            <button type="button" class="as-bubble">A</button>
+                            <button type="button" class="as-bubble">B</button>
+                            <button type="button" class="as-bubble">C</button>
+                            <button type="button" class="as-bubble">D</button>
+                            <button type="button" class="as-bubble">E</button>
+                        </div>
+                    </div>
+                    <div class="as-stamp">FANTASMA ★</div>
+                    <span class="tap-hint" aria-hidden="true"><img src="img/tap-finger.svg" alt="" class="svg-ico"> MARQUE AS LETRAS</span>
+                </div>
+
+                <button type="button" class="you-row" id="challengeBtn">
+                    <span class="you-badge">VOCÊ</span>
+                    <span class="you-pos">#4</span>
+                    <span class="you-name">Tem vaga no pódio. Vem?</span>
+                    <span class="you-cta">DESAFIAR O TOP 3 →</span>
+                </button>
+
+            </div>
+        </section>
+
+        <!-- Planos -->
+        <section class="pricing" id="planos">
+            <div class="container">
+
+                <span class="section-tag">QUESTÃO 03 — PLANOS</span>
+                <h2 class="section-title">PLANOS <span class="word-highlight">SIMPLES</span> E ACESSÍVEIS</h2>
+
+                <div class="pricing-grid">
+
+                    <!-- Gratuito -->
+                    <article class="plan-card">
+                        <h3 class="plan-name">GRATUITO</h3>
+                        <div class="plan-price">R$ 0<sup class="price-small">,00</sup></div>
+                        <ul class="plan-list">
+                            <li class="plan-item ok"><img src="img/check-badge.svg" alt="" class="svg-ico"> Acesso a todos os conteúdos</li>
+                            <li class="plan-item ok"><img src="img/check-badge.svg" alt="" class="svg-ico"> Ranking semanal</li>
+                            <li class="plan-item warn"><img src="img/alert-triangle.svg" alt="" class="svg-ico"> Vidas limitadas</li>
+                            <li class="plan-item warn"><img src="img/alert-triangle.svg" alt="" class="svg-ico"> Contém anúncios</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-grey btn-block">CRIAR CONTA GRÁTIS</a>
+                    </article>
+
+                    <!-- Premium -->
+                    <article class="plan-card plan-featured">
+                        <span class="plan-badge">MAIS POPULAR ★</span>
+                        <h3 class="plan-name">PREMIUM</h3>
+                        <div class="plan-price">R$ 14<sup class="price-small">,99</sup> <span class="price-period">mensais</span></div>
+                        <ul class="plan-list">
+                            <li class="plan-item ok"><img src="img/check-badge.svg" alt="" class="svg-ico"> Tudo do plano gratuito</li>
+                            <li class="plan-item ok"><img src="img/check-badge.svg" alt="" class="svg-ico"> Vidas ilimitadas (estude sem pausas)</li>
+                            <li class="plan-item ok"><img src="img/check-badge.svg" alt="" class="svg-ico"> Zero anúncios</li>
+                            <li class="plan-item ok"><img src="img/check-badge.svg" alt="" class="svg-ico"> Emblema exclusivo no perfil</li>
+                        </ul>
+                        <a href="#" class="btn btn-inverse btn-block">ASSINAR PREMIUM</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Origem do Projeto -->
+        <section class="team" id="equipe">
+            <div class="container">
+
+                <span class="team-tag">PROJETO SESI / SENAI</span>
+                <h2 class="section-title">CRIADO DE ESTUDANTES<br><span class="word-highlight">PARA ESTUDANTES</span></h2>
+                <p class="section-subtitle">
+                    Desenvolvemos a plataforma no Curso Técnico em Informática para Internet no SENAI Dendezeiros,
+                    enquanto cursávamos o Ensino Médio no SESI — para ajudar quem enfrenta as mesmas
+                    dificuldades que nós enfrentamos no ENEM.
+                </p>
+                <!--<img src="img/SENAI_sem_assinatura_positiva 1.png" alt="SENAI" class="senai-logo">
+
+               <div class="team-grid">
+
+                    <article class="member-card">
+                        <span class="member-level">LVL 99</span>
+                        <span class="member-stamp">CO-FOUND</span>
+                        <img src="img/erica.svg" alt="Érica Paixão Gois" class="member-photo">
+                        <h3 class="member-name">ÉRICA PAIXÃO GOIS</h3>
+                        <p class="member-role">Co-fundadora &amp; Dev</p>
+                        <a href="#" class="member-linkedin">
+                            <img src="img/logos--linkedin-icon 2.svg" alt="LinkedIn" class="linkedin-icon">
+                            /in/erica-gois
+                        </a>
+                    </article>
+
+                    <article class="member-card">
+                        <span class="member-level member-level--orange">LVL 99</span>
+                        <span class="member-stamp member-stamp--orange">CO-FOUND</span>
+                        <img src="img/rodrigo.svg" alt="Rodrigo Pereira Faria" class="member-photo">
+                        <h3 class="member-name">RODRIGO PEREIRA FARIA</h3>
+                        <p class="member-role">Co-fundador &amp; Dev</p>
+                        <a href="#" class="member-linkedin">
+                            <img src="img/logos--linkedin-icon 2.svg" alt="LinkedIn" class="linkedin-icon">
+                            /in/rodrigo-faria
+                        </a>
+                    </article>
+
+                </div>  -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-marquee" aria-hidden="true">
+            <span>APRENDA+ ENEM ★ ESTUDE JOGANDO ★ APRENDA+ ENEM ★ ESTUDE JOGANDO ★ </span>
+            <span>APRENDA+ ENEM ★ ESTUDE JOGANDO ★ APRENDA+ ENEM ★ ESTUDE JOGANDO ★ </span>
+        </div>
+
+        <div class="container footer-grid">
+
+            <div class="footer-col footer-brand">
+                <img src="img/logo-rodape.svg" alt="Aprenda+ ENEM" class="footer-logo">
+                <p class="footer-slogan">Estude para o ENEM de forma dinâmica, eficiente e gamificada.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-media-icon">
+                        <img src="img/skill-icons--instagram 1.svg" alt="Instagram" class="icon">
+                    </a>
+                    <a href="#" class="social-media-icon">
+                        <img src="img/logos--linkedin-icon 2.svg" alt="LinkedIn" class="icon">
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">// PLATAFORMA</h4>
+                <ul class="footer-list">
+                    <li><a href="#home" class="footer-link">Home</a></li>
+                    <li><a href="#planos" class="footer-link">Planos</a></li>
+                    <li><a href="#metodologia" class="footer-link">Metodologia</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">// INSTITUCIONAL</h4>
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">Termos de Uso</a></li>
+                    <li><a href="#" class="footer-link">Privacidade</a></li>
+                    <li><a href="#" class="footer-link">LGPD</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">// CONTATO &amp; SUPORTE</h4>
+                <ul class="footer-list">
+                    <li class="footer-item"><img src="img/mail-icon.svg" alt="" class="svg-ico"> aprendamaisenem02@gmail.com</li>
+                    <li><a href="mailto:aprendamaisenem02@gmail.com" class="footer-link">Ouvidoria</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 APRENDA+ ENEM — TODOS OS DIREITOS RESERVADOS — FEITO POR ESTUDANTES, PARA ESTUDANTES.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
