@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36">
+  <!-- Fitas -->
+  <path d="M12 2 L9 15 L14 15 L16 2 Z" fill="#6D28D9"/>
+  <path d="M24 2 L27 15 L22 15 L20 2 Z" fill="#7C3AED"/>
+  <!-- Medalha externa -->
+  <circle cx="18" cy="22" r="12" fill="#94A3B8" stroke="#475569" stroke-width="2"/>
+  <!-- Medalha interna -->
+  <circle cx="18" cy="22" r="9.5" fill="#E2E8F0"/>
+  <!-- Número 2 -->
+  <path d="M15.5 19 C15.5 17 20.5 17 20.5 19.5 C20.5 22 15.5 23.5 15.5 26.5 L20.5 26.5" fill="none" stroke="#334155" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

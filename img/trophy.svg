@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+  <!-- Taça -->
+  <path d="M7 4 H17 V10 C17 12.76 14.76 15 12 15 C9.24 15 7 12.76 7 10 V4 Z" fill="#F59E0B" stroke="#B45309" stroke-width="1.8"/>
+  <!-- Alça esquerda -->
+  <path d="M7 6 H4 C3.45 6 3 6.45 3 7 V8 C3 10.2 4.8 12 7 12" stroke="#B45309" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Alça direita -->
+  <path d="M17 6 H20 C20.55 6 21 6.45 21 7 V8 C21 10.2 19.2 12 17 12" stroke="#B45309" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Haste -->
+  <path d="M12 15 V18" stroke="#B45309" stroke-width="2" stroke-linecap="round"/>
+  <!-- Base -->
+  <rect x="7" y="18" width="10" height="3" rx="1" fill="#D97706" stroke="#B45309" stroke-width="1.5"/>
+</svg>

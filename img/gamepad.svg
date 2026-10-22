@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+  <!-- Corpo do controle -->
+  <path d="M5.5 8 C3 8 2 10.5 2 13 C2 16 3.5 19 6 19 C7.5 19 8.5 17.5 10 17.5 H14 C15.5 17.5 16.5 19 18 19 C20.5 19 22 16 22 13 C22 10.5 21 8 18.5 8 H5.5 Z" fill="#F97316" stroke="#431407" stroke-width="1.8"/>
+  <!-- D-Pad -->
+  <path d="M6.5 11.5 V15.5 M4.5 13.5 H8.5" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Botões de ação -->
+  <circle cx="16" cy="12.5" r="1.1" fill="#FFFFFF"/>
+  <circle cx="18" cy="14.5" r="1.1" fill="#FFFFFF"/>
+</svg>
